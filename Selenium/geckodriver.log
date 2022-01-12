@@ -1,0 +1,13 @@
+1641953248138	geckodriver	INFO	Listening on 127.0.0.1:60493
+1641953251212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\samba\\AppData\\Local\\Temp\\rust_mozprofilerdix9K"
+1641953251633	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\samba\\AppData\\Local\\Temp\\rust_mozprofilerdix9K\\search.json.mozlz4", (void 0)))
+1641953254170	Marionette	INFO	Listening on port 60502
+1641953254404	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://www.dummypoint.com/seleniumtemplate.html, line 498: ReferenceError: demo is not defined
+1641953261389	Marionette	INFO	Stopped listening on port 60502
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
