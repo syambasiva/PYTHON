@@ -29,7 +29,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome("/Users/sujithreddy/Documents/Others/Drivers/chromedriver")  # Using Chrome Driver
+driver = webdriver.Chrome("chromedriver")  # Using Chrome Driver
 
 driver.get("http://dummypoint.com/seleniumtemplate.html")
 time.sleep(2)

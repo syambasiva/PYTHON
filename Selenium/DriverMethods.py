@@ -1,17 +1,16 @@
 from selenium import webdriver
 import time
 
-from selenium.webdriver.common.by import By
-
 driver = webdriver.Chrome("chromedriver")
 
 driver.get("http://www.dummypoint.com/seleniumtemplate.html")
+assert "Selenium Template" in driver.title
+
+driver.maximize_window()
 time.sleep(2)
-
-ele = driver.find_elements(By.ID,"menu")
-
-for menu in ele:
-    print(menu.text)
+driver.minimize_window()
+time.sleep(2)
+driver.maximize_window()
 
 time.sleep(5)
 driver.quit()

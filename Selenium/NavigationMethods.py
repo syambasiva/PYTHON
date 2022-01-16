@@ -1,17 +1,21 @@
 from selenium import webdriver
 import time
 
-from selenium.webdriver.common.by import By
-
 driver = webdriver.Chrome("chromedriver")
 
 driver.get("http://www.dummypoint.com/seleniumtemplate.html")
 time.sleep(2)
 
-ele = driver.find_elements(By.ID,"menu")
+driver.get("http://www.dummypoint.com/Form.html")
+time.sleep(2)
 
-for menu in ele:
-    print(menu.text)
+driver.back()
+time.sleep(2)
+
+driver.forward()
+time.sleep(2)
+
+driver.refresh()
 
 time.sleep(5)
 driver.quit()
