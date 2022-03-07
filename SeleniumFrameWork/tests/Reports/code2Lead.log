@@ -1,0 +1,17 @@
+19/01/22 08:34:35 AM Wednesday - WebDriverClass - INFO : Chrome Driver is initializing
+19/01/22 08:34:38 AM Wednesday - <module> - INFO : webpage launched
+19/01/22 08:51:13 AM Wednesday - WebDriverClass - INFO : Chrome Driver is initializing
+19/01/22 08:51:16 AM Wednesday - BaseClass - INFO : Web Page Launched with URL : http://www.dummypoint.com/seleniumtemplate.html
+19/01/22 08:51:16 AM Wednesday - <module> - INFO : webpage launched
+19/01/22 11:17:48 AM Wednesday - WebDriverClass - INFO : Chrome Driver is initializing
+19/01/22 11:17:52 AM Wednesday - BaseClass - INFO : Web Page Launched with URL : http://www.dummypoint.com/seleniumtemplate.html
+19/01/22 11:17:52 AM Wednesday - BaseClass - INFO : WebElement found with locator value user_input using locatorType id
+19/01/22 11:17:52 AM Wednesday - <module> - INFO : webpage launched
+07/03/22 11:21:41 AM Monday - WebDriverClass - INFO : Chrome Driver is initializing
+07/03/22 11:21:43 AM Monday - BaseClass - INFO : Web Page Launched with URL : http://www.dummypoint.com/seleniumtemplate.html
+07/03/22 11:21:43 AM Monday - BaseClass - INFO : WebElement found with locator value user_input using locatorType id
+07/03/22 11:21:44 AM Monday - <module> - INFO : webpage launched
+07/03/22 11:27:01 AM Monday - WebDriverClass - INFO : Chrome Driver is initializing
+07/03/22 11:27:10 AM Monday - BaseClass - INFO : Web Page Launched with URL : http://www.dummypoint.com/seleniumtemplate.html
+07/03/22 11:27:10 AM Monday - BaseClass - INFO : WebElement found with locator value user_input using locatorType id
+07/03/22 11:27:10 AM Monday - <module> - INFO : webpage launched
