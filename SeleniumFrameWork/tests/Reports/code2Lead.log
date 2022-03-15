@@ -15,3 +15,7 @@
 07/03/22 11:27:10 AM Monday - BaseClass - INFO : Web Page Launched with URL : http://www.dummypoint.com/seleniumtemplate.html
 07/03/22 11:27:10 AM Monday - BaseClass - INFO : WebElement found with locator value user_input using locatorType id
 07/03/22 11:27:10 AM Monday - <module> - INFO : webpage launched
+08/03/22 11:30:01 AM Tuesday - WebDriverClass - INFO : Chrome Driver is initializing
+08/03/22 11:30:03 AM Tuesday - BaseClass - INFO : Web Page Launched with URL : http://www.dummypoint.com/seleniumtemplate.html
+08/03/22 11:30:03 AM Tuesday - BaseClass - INFO : WebElement found with locator value user_input using locatorType id
+08/03/22 11:30:04 AM Tuesday - <module> - INFO : webpage launched

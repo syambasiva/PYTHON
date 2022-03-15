@@ -1,3 +1,4 @@
+
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
 from selenium.webdriver.common.by import By
@@ -9,34 +10,21 @@ import time
 
 driver = webdriver.Chrome("chromedriver")  # Using Chrome Driver
 
-driver.get("http://www.dummypoint.com/Windows.html")
-assert "Selenium Template" in driver.title
+driver.get("https://yopmail.com/en/")
 
-wait = WebDriverWait(driver, 25, poll_frequency=1,
-                     ignored_exceptions=[ElementNotVisibleException, ElementNotSelectableException,
-                                         NoSuchElementException])
-
-wait.until(ec.presence_of_element_located((By.XPATH, '//button[text()="Promt Alert"]'))).click()
+time.sleep(20)
+##shrawni@yopmail.com
+username = (By.XPATH, '(//div[@class="wminboxheader"]/div/button/i[@class="material-icons-outlined"])[1]')
+driver.find_element(*username).click()
 time.sleep(2)
 
-# Import Alert class
+username1 = (By.XPATH, '//span[text()="Empty Inbox"]')
+driver.find_element(*username1).click()
+time.sleep(2)
 
-# Create the object for Alert class
 a_button = Alert(driver)
 
-
-# Using Alert class object call the methods to " 1. accept or 2. dismiss or 3. send text and get text " in Alert box
-time.sleep(2)
-
-text_p = a_button.text
-print(text_p)
-
-a_button.send_keys("Code2Lead")
-
 a_button.accept()
-a_button.dismiss()
-a_button.accept()
-
 
 time.sleep(5)
 driver.quit()
