@@ -11,6 +11,7 @@ import time
 driver = webdriver.Chrome("chromedriver")  # Using Chrome Driver
 
 driver.get("https://yopmail.com/en/")
+##driver.get("https://npp-auth:swisspost@serviceint2.post.ch/ele-klp/ele/overview?inMobileApp=false&inIframe=false&lang=de")
 
 time.sleep(20)
 ##shrawni@yopmail.com
